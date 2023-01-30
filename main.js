@@ -1210,7 +1210,6 @@ class EmpleadocomponentComponent {
           location.reload();
           // this.empleadosServiceService.selectedEmpleado.N_mero_de_Identificaci_n = Numeros1_;
         } else if (Numeros2_ != null) {
-          console.log("asdasd");
           var NumeroExtraido_ = Numeros2_[Numeros2_.length - 1];
           var NumeroFinal_ = NumeroExtraido_.substr(NumeroExtraido_.length - 10, NumeroExtraido_.length);
           console.log(NumeroFinal_);
