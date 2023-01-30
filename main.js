@@ -21,6 +21,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [{
+  path: '',
+  component: _components_biometrico_biometrico_component__WEBPACK_IMPORTED_MODULE_1__.BiometricoComponent
+}, {
   path: 'Empleados',
   component: _empleado_empleadocomponent_empleadocomponent_component__WEBPACK_IMPORTED_MODULE_0__.EmpleadocomponentComponent
 }, {
@@ -1036,10 +1039,10 @@ class EmpleadocomponentComponent {
   //Validar empleado
   ValidarEmpleado(Num_Identifiacion, Estado) {
     this.empleadosServiceService.getEmpleado(Num_Identifiacion).subscribe(res => {
-      console.log(res);
       if (res.N_mero_de_Identificaci_n != null) {
         this.ValidarBiometrico(Num_Identifiacion, Estado, res);
       } else {
+        //NOTIFICACION DE NO EXISTE EL EMPLEADO ACTIVO EN EL SISTEMA
         console.log("NO existe"); //NOTIFICACIONES
       }
     });
@@ -1050,9 +1053,9 @@ class EmpleadocomponentComponent {
       console.log(res);
       if (Estado == "Ingreso") {
         if (res.N_mero_de_Identificaci_n != null) {
+          //NOTIFIACION DE QUE YA TIENE UN INGRESO EN EL SISTEMA PARA EL HORARIO
           console.log("EXISTE"); //NOTIFICACIONES
         } else {
-          console.log("NO existe"); //NOTIFICACIONES
           this.newBiometricoModelo.Nombre = Empleado_.Nombre_compleo;
           this.newBiometricoModelo.Empresa = Empleado_.Empresa_usuaria;
           this.newBiometricoModelo.N_mero_de_Identificaci_n = Empleado_.N_mero_de_Identificaci_n;
@@ -1066,6 +1069,7 @@ class EmpleadocomponentComponent {
         //SI existe entonces ya hizo registro de salida
         if (res.N_mero_de_Identificaci_n != null) {
           //SE DEBE COLCOAR UNA ALERTA
+          //NOTIFIACION DE QUE YA TIENE UNA SALIDA EN EL SISTEMA PARA EL HORARIO
           console.log("ALERTA Existe un registro de salida ya"); //NOTIFICACIONES
         } else {
           //Validar de nuevo
@@ -1079,6 +1083,7 @@ class EmpleadocomponentComponent {
               //Actualizar
               this.updateBiometrico(this.newBiometricoModelo, res.ID);
               this.getEmpleado(Num_Identifiacion);
+              //NOTIFIACION DE SI SI REGISTRA ENTRADA
             } else {
               this.newBiometricoModelo.Nombre = Empleado_.Nombre_compleo;
               this.newBiometricoModelo.Empresa = Empleado_.Empresa_usuaria;
@@ -1087,6 +1092,7 @@ class EmpleadocomponentComponent {
               this.newBiometricoModelo.ID = res.ID;
               this.addEmpleado(this.newBiometricoModelo, Estado);
               this.getEmpleado(Num_Identifiacion);
+              //NOTIFIACION DE SI NO REGISTRA ENTRADA
             }
           });
         }
@@ -1208,8 +1214,7 @@ class EmpleadocomponentComponent {
       clearTimeout(this.timeout);
     }
     this.timeout = setTimeout(() => {
-      // location.href = 'http://localhost:4200/Biometrico';
-      location.host;
+      location.href = location.host;
       location.reload();
     }, 300000);
   }
