@@ -1331,7 +1331,7 @@ class EmpleadosServiceService {
       ID: ""
     };
     //DOMINIO
-    this.dominioURL = "http://164.92.109.128:7000/";
+    this.dominioURL = "https://backservicios.gestionhq5.com.co/";
     // private dominioURL =  "http://localhost:7000/"
     //URLS
     this.GetEmpleadoURL = this.dominioURL + "empleado/";
