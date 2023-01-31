@@ -1210,6 +1210,7 @@ class EmpleadocomponentComponent {
           if (NumeroFinal_.startsWith('0')) {
             NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
           }
+          console.log(NumeroFinal_);
           this.ValidarEmpleado(NumeroFinal_, "Ingreso");
           this.mesaggeEstate = "Ingreso";
           event.target.value = NumeroFinal_;
@@ -1401,7 +1402,7 @@ class EmpleadosServiceService {
       ID: ""
     };
     //DOMINIO
-    this.dominioURL = "  https://backservicios.gestionhq5.com.co/";
+    this.dominioURL = "https://backservicios.gestionhq5.com.co/";
     // private dominioURL =  "http://164.92.109.128:7000/"
     // private dominioURL =  "http://localhost:7000/"
     //URLS
