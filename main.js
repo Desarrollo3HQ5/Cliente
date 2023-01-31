@@ -1163,15 +1163,6 @@ class EmpleadocomponentComponent {
   updateBiometrico(newBiometrico, ID) {
     this.empleadosServiceService.updateEmpleado(ID, newBiometrico).subscribe(res => {
       console.log(res);
-      //NOTIFICACIONES
-      //NOTIFIACION DE SI NO REGISTRA ENTRADA
-      this.mesaggeTitle = "El registro fue exitoso!";
-      this.mesaggeNote = "El registro se realizó exitosamente";
-      this.mesaggeImg = "assets/Images/advertencia.svg";
-      this.mesaggeAlertOpen();
-      setTimeout(() => {
-        this.mesaggeAlertClose();
-      }, 3000);
     });
   }
   ingreso(event) {
@@ -1288,8 +1279,7 @@ class EmpleadocomponentComponent {
       clearTimeout(this.timeout);
     }
     this.timeout = setTimeout(() => {
-      location.href = location.host;
-      location.reload();
+      location.href = location.host + "/Biometrico";
     }, 300000);
   }
 }
