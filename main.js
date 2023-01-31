@@ -731,26 +731,26 @@ function EmpleadocomponentComponent_ng_container_10_Template(rf, ctx) {
 }
 function EmpleadocomponentComponent_ng_template_11_webcam_2_Template(rf, ctx) {
   if (rf & 1) {
-    const _r17 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "webcam", 21);
+    const _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "webcam", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("imageCapture", function EmpleadocomponentComponent_ng_template_11_webcam_2_Template_webcam_imageCapture_0_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r17);
-      const ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r16.handleImage($event));
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r13);
+      const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r12.handleImage($event));
     })("cameraSwitched", function EmpleadocomponentComponent_ng_template_11_webcam_2_Template_webcam_cameraSwitched_0_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r17);
-      const ctx_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r18.cameraWasSwitched($event));
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r13);
+      const ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r14.cameraWasSwitched($event));
     })("initError", function EmpleadocomponentComponent_ng_template_11_webcam_2_Template_webcam_initError_0_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r17);
-      const ctx_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r19.handleInitError($event));
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r13);
+      const ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r15.handleInitError($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("height", 370)("width", 370)("trigger", ctx_r11.triggerObservable)("allowCameraSwitch", ctx_r11.allowCameraSwitch)("switchCamera", ctx_r11.nextWebcamObservable)("videoOptions", ctx_r11.videoOptions);
+    const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("height", 370)("width", 370)("trigger", ctx_r7.triggerObservable)("allowCameraSwitch", ctx_r7.allowCameraSwitch)("switchCamera", ctx_r7.nextWebcamObservable)("videoOptions", ctx_r7.videoOptions);
   }
 }
 function EmpleadocomponentComponent_ng_template_11_h4_4_Template(rf, ctx) {
@@ -768,51 +768,51 @@ function EmpleadocomponentComponent_ng_template_11_ul_5_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
-    const error_r20 = ctx.$implicit;
+    const error_r16 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](3, 1, error_r20));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](3, 1, error_r16));
   }
 }
 function EmpleadocomponentComponent_ng_template_11_div_11_div_2_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " Numero de identificacion es obligatorio ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
   }
 }
 function EmpleadocomponentComponent_ng_template_11_div_11_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " Ingrese un n\u00FAmero de identificaci\u00F3n ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, EmpleadocomponentComponent_ng_template_11_div_11_div_2_Template, 2, 0, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, EmpleadocomponentComponent_ng_template_11_div_11_div_2_Template, 2, 0, "div", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
+    const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r15.N_mero_de_Identificaci_n.errors == null ? null : ctx_r15.N_mero_de_Identificaci_n.errors["required"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r11.N_mero_de_Identificaci_n.errors == null ? null : ctx_r11.N_mero_de_Identificaci_n.errors["required"]);
   }
 }
 function EmpleadocomponentComponent_ng_template_11_Template(rf, ctx) {
   if (rf & 1) {
-    const _r23 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 14)(1, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, EmpleadocomponentComponent_ng_template_11_webcam_2_Template, 1, 6, "webcam", 15);
+    const _r19 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 13)(1, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, EmpleadocomponentComponent_ng_template_11_webcam_2_Template, 1, 6, "webcam", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](4, EmpleadocomponentComponent_ng_template_11_h4_4_Template, 2, 0, "h4", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](5, EmpleadocomponentComponent_ng_template_11_ul_5_Template, 4, 3, "ul", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](4, EmpleadocomponentComponent_ng_template_11_h4_4_Template, 2, 0, "h4", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](5, EmpleadocomponentComponent_ng_template_11_ul_5_Template, 4, 3, "ul", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "por favor ingresa tu n\u00FAmero de documento");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "Por favor ingresa tu n\u00FAmero de documento");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div")(9, "input", 18, 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div")(9, "input", 16, 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("keydown", function EmpleadocomponentComponent_ng_template_11_Template_input_keydown_9_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r23);
-      const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r22.ingreso($event));
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r19);
+      const ctx_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r18.ingreso($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, EmpleadocomponentComponent_ng_template_11_div_11_Template, 3, 1, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, EmpleadocomponentComponent_ng_template_11_div_11_Template, 3, 1, "div", 18);
   }
   if (rf & 2) {
     const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
@@ -828,26 +828,26 @@ function EmpleadocomponentComponent_ng_template_11_Template(rf, ctx) {
 }
 function EmpleadocomponentComponent_ng_template_13_webcam_2_Template(rf, ctx) {
   if (rf & 1) {
-    const _r28 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "webcam", 21);
+    const _r24 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "webcam", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("imageCapture", function EmpleadocomponentComponent_ng_template_13_webcam_2_Template_webcam_imageCapture_0_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r28);
-      const ctx_r27 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r27.handleImage($event));
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r24);
+      const ctx_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r23.handleImage($event));
     })("cameraSwitched", function EmpleadocomponentComponent_ng_template_13_webcam_2_Template_webcam_cameraSwitched_0_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r28);
-      const ctx_r29 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r29.cameraWasSwitched($event));
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r24);
+      const ctx_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r25.cameraWasSwitched($event));
     })("initError", function EmpleadocomponentComponent_ng_template_13_webcam_2_Template_webcam_initError_0_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r28);
-      const ctx_r30 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r30.handleInitError($event));
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r24);
+      const ctx_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r26.handleInitError($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("height", 370)("width", 370)("trigger", ctx_r24.triggerObservable)("allowCameraSwitch", ctx_r24.allowCameraSwitch)("switchCamera", ctx_r24.nextWebcamObservable)("videoOptions", ctx_r24.videoOptions);
+    const ctx_r20 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("height", 370)("width", 370)("trigger", ctx_r20.triggerObservable)("allowCameraSwitch", ctx_r20.allowCameraSwitch)("switchCamera", ctx_r20.nextWebcamObservable)("videoOptions", ctx_r20.videoOptions);
   }
 }
 function EmpleadocomponentComponent_ng_template_13_div_7_div_2_Template(rf, ctx) {
@@ -859,32 +859,32 @@ function EmpleadocomponentComponent_ng_template_13_div_7_div_2_Template(rf, ctx)
 }
 function EmpleadocomponentComponent_ng_template_13_div_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " Ingrese un n\u00FAmero de identificaci\u00F3n ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, EmpleadocomponentComponent_ng_template_13_div_7_div_2_Template, 2, 0, "div", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, EmpleadocomponentComponent_ng_template_13_div_7_div_2_Template, 2, 0, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const ctx_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
+    const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r26.N_mero_de_Identificaci_n.errors == null ? null : ctx_r26.N_mero_de_Identificaci_n.errors["required"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r22.N_mero_de_Identificaci_n.errors == null ? null : ctx_r22.N_mero_de_Identificaci_n.errors["required"]);
   }
 }
 function EmpleadocomponentComponent_ng_template_13_Template(rf, ctx) {
   if (rf & 1) {
-    const _r33 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 14)(1, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, EmpleadocomponentComponent_ng_template_13_webcam_2_Template, 1, 6, "webcam", 15);
+    const _r29 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 13)(1, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, EmpleadocomponentComponent_ng_template_13_webcam_2_Template, 1, 6, "webcam", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "div")(5, "input", 25, 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "div")(5, "input", 23, 24);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("keydown", function EmpleadocomponentComponent_ng_template_13_Template_input_keydown_5_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r33);
-      const ctx_r32 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r32.salida($event));
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r29);
+      const ctx_r28 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r28.salida($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](7, EmpleadocomponentComponent_ng_template_13_div_7_Template, 3, 1, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](7, EmpleadocomponentComponent_ng_template_13_div_7_Template, 3, 1, "div", 18);
   }
   if (rf & 2) {
     const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
@@ -894,34 +894,24 @@ function EmpleadocomponentComponent_ng_template_13_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r5.N_mero_de_Identificaci_n.invalid && (ctx_r5.N_mero_de_Identificaci_n.dirty || ctx_r5.N_mero_de_Identificaci_n.touched));
   }
 }
-function EmpleadocomponentComponent_ng_container_17_Template(rf, ctx) {
+function EmpleadocomponentComponent_div_17_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainer"](0);
-  }
-}
-function EmpleadocomponentComponent_ng_template_18_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 27)(1, "div", 28);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div")(1, "section", 25)(2, "div", 26)(3, "h2", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 29)(4, "h4", 30);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, "REGISTRO EXITOSO");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "p", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "img", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "p", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
   }
   if (rf & 2) {
-    const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r6.mesaggeTitle);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r6.mesaggeImg, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r8.empleados.Empresa_usuaria);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("Registro exitoso de ", ctx_r8.empleados.Nombre_compleo, " identificado con ", ctx_r8.empleados.N_mero_de_Identificaci_n, "");
-  }
-}
-function EmpleadocomponentComponent_ng_template_20_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r6.mesaggeNote);
   }
 }
 class EmpleadocomponentComponent {
@@ -1011,6 +1001,13 @@ class EmpleadocomponentComponent {
       this.multipleWebcamsAvailable = mediaDevices && mediaDevices.length > 1;
     });
   }
+  //Alertas
+  mesaggeAlertOpen() {
+    this.mesagge = true;
+  }
+  mesaggeAlertClose() {
+    this.mesagge = false;
+  }
   triggerSnapshot() {
     this.trigger.next();
   }
@@ -1041,36 +1038,66 @@ class EmpleadocomponentComponent {
     this.empleadosServiceService.getEmpleado(Num_Identifiacion).subscribe(res => {
       if (res.N_mero_de_Identificaci_n != null) {
         this.ValidarBiometrico(Num_Identifiacion, Estado, res);
+        setTimeout(() => {
+          this.empleados.N_mero_de_Identificaci_n = '';
+        }, 3000);
       } else {
         //NOTIFICACION DE NO EXISTE EL EMPLEADO ACTIVO EN EL SISTEMA
-        console.log("NO existe"); //NOTIFICACIONES
+        this.mesaggeTitle = "¡Ha ocurrido un error!";
+        this.mesaggeNote = "El empleado no se encuentra activo en el sistema comuniquese con el supervisor";
+        this.mesaggeImg = "assets/Images/error.svg";
+        this.mesaggeAlertOpen();
+        setTimeout(() => {
+          this.mesaggeAlertClose();
+        }, 3000);
+        //  console.log("NO existe") //NOTIFICACIONES
       }
     });
   }
 
   ValidarBiometrico(Num_Identifiacion, Estado, Empleado_) {
     this.empleadosServiceService.getRegistroBiometrico(Num_Identifiacion, Estado, "1").subscribe(res => {
-      console.log(res);
+      // console.log(res)
       if (Estado == "Ingreso") {
         if (res.N_mero_de_Identificaci_n != null) {
           //NOTIFIACION DE QUE YA TIENE UN INGRESO EN EL SISTEMA PARA EL HORARIO
-          console.log("EXISTE"); //NOTIFICACIONES
+          this.mesaggeTitle = "¡Advertencia!";
+          this.mesaggeNote = "La cedula ingresada ya presenta un registro de ingreso";
+          this.mesaggeImg = "assets/Images/advertencia.svg";
+          this.mesaggeAlertOpen();
+          setTimeout(() => {
+            this.mesaggeAlertClose();
+          }, 3000);
+          // console.log("EXISTE")//NOTIFICACIONES
         } else {
           this.newBiometricoModelo.Nombre = Empleado_.Nombre_compleo;
           this.newBiometricoModelo.Empresa = Empleado_.Empresa_usuaria;
           this.newBiometricoModelo.N_mero_de_Identificaci_n = Empleado_.N_mero_de_Identificaci_n;
           this.newBiometricoModelo.IDempelado = Empleado_.ID;
           this.addEmpleado(this.newBiometricoModelo, Estado);
-          this.getEmpleado(Num_Identifiacion);
+          //NOTIFIACION DE QUE YA TIENE UN INGRESO EN EL SISTEMA PARA EL HORARIO
+          this.mesaggeTitle = "Registro exitoso!";
+          this.mesaggeNote = "El registro fue exitoso";
+          this.mesaggeImg = "assets/Images/ingreso.svg";
+          this.mesaggeAlertOpen();
+          setTimeout(() => {
+            this.mesaggeAlertClose();
+          }, 3000);
         }
       } //SALIDA
       else {
-        console.log("SALIDA");
         //SI existe entonces ya hizo registro de salida
         if (res.N_mero_de_Identificaci_n != null) {
           //SE DEBE COLCOAR UNA ALERTA
           //NOTIFIACION DE QUE YA TIENE UNA SALIDA EN EL SISTEMA PARA EL HORARIO
-          console.log("ALERTA Existe un registro de salida ya"); //NOTIFICACIONES
+          this.mesaggeTitle = "¡Advertencia!";
+          this.mesaggeNote = "La cedula ingresada ya presenta un registro de salida";
+          this.mesaggeImg = "assets/Images/advertencia.svg";
+          this.mesaggeAlertOpen();
+          setTimeout(() => {
+            this.mesaggeAlertClose();
+          }, 3000);
+          // console.log("ALERTA Existe un registro de salida ya") //NOTIFICACIONES
         } else {
           //Validar de nuevo
           this.empleadosServiceService.getRegistroBiometrico(Num_Identifiacion, Estado, "2").subscribe(res => {
@@ -1082,8 +1109,14 @@ class EmpleadocomponentComponent {
               this.newBiometricoModelo.ID = res.ID;
               //Actualizar
               this.updateBiometrico(this.newBiometricoModelo, res.ID);
-              this.getEmpleado(Num_Identifiacion);
-              //NOTIFIACION DE SI SI REGISTRA ENTRADA
+              //NOTIFIACION DE SI NO REGISTRA ENTRADA
+              this.mesaggeTitle = "El registro fue exitoso!";
+              this.mesaggeNote = "El registro se realizó exitosamente";
+              this.mesaggeImg = "assets/Images/salida.svg";
+              this.mesaggeAlertOpen();
+              setTimeout(() => {
+                this.mesaggeAlertClose();
+              }, 3000);
             } else {
               this.newBiometricoModelo.Nombre = Empleado_.Nombre_compleo;
               this.newBiometricoModelo.Empresa = Empleado_.Empresa_usuaria;
@@ -1091,8 +1124,15 @@ class EmpleadocomponentComponent {
               this.newBiometricoModelo.IDempelado = Empleado_.ID;
               this.newBiometricoModelo.ID = res.ID;
               this.addEmpleado(this.newBiometricoModelo, Estado);
-              this.getEmpleado(Num_Identifiacion);
+              // this.getEmpleado(Num_Identifiacion)
               //NOTIFIACION DE SI NO REGISTRA ENTRADA
+              this.mesaggeTitle = "¡Advertencia!";
+              this.mesaggeNote = "La cedula ingresada no presenta registro de entrada";
+              this.mesaggeImg = "assets/Images/salida.svg";
+              this.mesaggeAlertOpen();
+              setTimeout(() => {
+                this.mesaggeAlertClose();
+              }, 3000);
             }
           });
         }
@@ -1106,11 +1146,11 @@ class EmpleadocomponentComponent {
   addEmpleado(newBiometrico, Estado) {
     this.empleadosServiceService.createEmpleado(newBiometrico, Estado).subscribe(res => {
       this.triggerSnapshot();
-      console.log("Ingreso");
-      console.log(res.ID);
-      console.log(this.webcamImage.imageAsBase64);
-      let data = this.webcamImage.imageAsBase64;
-      this.fileModelo.File = data.toString();
+      // console.log("Ingreso")
+      // console.log(res.ID)
+      // console.log(this.webcamImage.imageAsBase64)
+      // let data = this.webcamImage.imageAsBase64;
+      // this.fileModelo.File=data.toString()
       // this.empleadosServiceService.uploadFile(res.ID,data)
       // this.uploadFile(res.ID,this.fileModelo)
     });
@@ -1124,57 +1164,62 @@ class EmpleadocomponentComponent {
     this.empleadosServiceService.updateEmpleado(ID, newBiometrico).subscribe(res => {
       console.log(res);
       //NOTIFICACIONES
+      //NOTIFIACION DE SI NO REGISTRA ENTRADA
+      this.mesaggeTitle = "El registro fue exitoso!";
+      this.mesaggeNote = "El registro se realizó exitosamente";
+      this.mesaggeImg = "assets/Images/advertencia.svg";
+      this.mesaggeAlertOpen();
+      setTimeout(() => {
+        this.mesaggeAlertClose();
+      }, 3000);
     });
   }
-
   ingreso(event) {
     if (this.timeout != null) {
       clearTimeout(this.timeout);
     }
     this.timeout = setTimeout(() => {
-      if (event.target.value.length > 50) {
-        let Entrada_ = event.target.value;
-        Entrada_ = Entrada_.substr(1, 50);
-        console.log("validar");
-        console.log(Entrada_);
-        Entrada_ = Entrada_.replace(" ", "");
-        var regex1 = /\_+(\d+)+[^\/]*\//g;
-        var regex = /(\d+)/g;
-        if (Entrada_ != null && Entrada_.length > 5) {
-          const text_ = Entrada_.match(regex1);
-          const Numeros2_ = Entrada_.match(regex);
-          if (text_ != null) {
-            let Numeros_ = text_[0];
-            let Numeros1_ = Numeros_.replace("_", "").replace("/", "");
-            // const Numeros_ = text_.match(regex);
-            this.ValidarEmpleado(Numeros1_, "Ingreso");
-            event.target.value = Numeros1_;
-            this.regresar_inicio();
-            event.target.value = "";
-            location.reload();
-            // this.empleadosServiceService.selectedEmpleado.N_mero_de_Identificaci_n = Numeros1_;
-          } else if (Numeros2_ != null) {
-            console.log("asdasd");
-            var NumeroExtraido_ = Numeros2_[Numeros2_.length - 1];
-            var NumeroFinal_ = NumeroExtraido_.substr(NumeroExtraido_.length - 10, NumeroExtraido_.length);
-            console.log(NumeroFinal_);
-            if (NumeroFinal_.startsWith('0')) {
-              NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
-            }
-            if (NumeroFinal_.startsWith('0')) {
-              NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
-            }
-            console.log("aaaa");
-            console.log(NumeroFinal_);
-            this.ValidarEmpleado(NumeroFinal_, "Ingreso");
-            event.target.value = NumeroFinal_;
-            this.regresar_inicio();
-            event.target.value = "";
+      // if (event.target.value.length > 50) {
+      let Entrada_ = event.target.value;
+      Entrada_ = Entrada_.substr(1, 50);
+      // console.log("validar")
+      // console.log(Entrada_)
+      Entrada_ = Entrada_.replace(" ", "");
+      var regex1 = /\_+(\d+)+[^\/]*\//g;
+      var regex = /(\d+)/g;
+      if (Entrada_ != null && Entrada_.length > 5) {
+        const text_ = Entrada_.match(regex1);
+        const Numeros2_ = Entrada_.match(regex);
+        if (text_ != null) {
+          let Numeros_ = text_[0];
+          let Numeros1_ = Numeros_.replace("_", "").replace("/", "");
+          // const Numeros_ = text_.match(regex);
+          this.ValidarEmpleado(Numeros1_, "Ingreso");
+          this.mesaggeEstate = "Ingreso";
+          event.target.value = Numeros1_;
+          this.regresar_inicio();
+          event.target.value = "";
+          location.reload();
+          // this.empleadosServiceService.selectedEmpleado.N_mero_de_Identificaci_n = Numeros1_;
+        } else if (Numeros2_ != null) {
+          var NumeroExtraido_ = Numeros2_[Numeros2_.length - 1];
+          var NumeroFinal_ = NumeroExtraido_.substr(NumeroExtraido_.length - 10, NumeroExtraido_.length);
+          if (NumeroFinal_.startsWith('0')) {
+            NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
           }
-        } else {
+          if (NumeroFinal_.startsWith('0')) {
+            NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
+          }
+          this.ValidarEmpleado(NumeroFinal_, "Ingreso");
+          this.mesaggeEstate = "Ingreso";
+          event.target.value = NumeroFinal_;
+          this.regresar_inicio();
           event.target.value = "";
         }
+      } else {
+        event.target.value = "";
       }
+      // }
     }, 1500);
   }
   // if (Entrada_ != null && Entrada_.length > 5) {
@@ -1193,46 +1238,45 @@ class EmpleadocomponentComponent {
       clearTimeout(this.timeout);
     }
     this.timeout = setTimeout(() => {
-      if (event.target.value.length > 50) {
-        let Entrada_ = event.target.value;
-        Entrada_ = Entrada_.substr(1, 50);
-        Entrada_ = Entrada_.replace(" ", "");
-        var regex1 = /\_+(\d+)+[^\/]*\//g;
-        var regex = /(\d+)/g;
-        if (Entrada_ != null && Entrada_.length > 5) {
-          const text_ = Entrada_.match(regex1);
-          const Numeros2_ = Entrada_.match(regex);
-          if (text_ != null) {
-            let Numeros_ = text_[0];
-            let Numeros1_ = Numeros_.replace("_", "").replace("/", "");
-            // const Numeros_ = text_.match(regex);
-            this.ValidarEmpleado(Numeros1_, "Salida");
-            event.target.value = Numeros1_;
-            this.regresar_inicio();
-            event.target.value = "";
-            location.reload();
-            // this.empleadosServiceService.selectedEmpleado.N_mero_de_Identificaci_n = Numeros1_;
-          } else if (Numeros2_ != null) {
-            var NumeroExtraido_ = Numeros2_[Numeros2_.length - 1];
-            var NumeroFinal_ = NumeroExtraido_.substr(NumeroExtraido_.length - 10, NumeroExtraido_.length);
-            console.log(NumeroFinal_);
-            if (NumeroFinal_.startsWith('0')) {
-              NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
-            }
-            if (NumeroFinal_.startsWith('0')) {
-              NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
-            }
-            console.log("aaaa");
-            console.log(NumeroFinal_);
-            this.ValidarEmpleado(NumeroFinal_, "Salida");
-            event.target.value = NumeroFinal_;
-            this.regresar_inicio();
-            event.target.value = "";
+      // if (event.target.value.length > 50) {
+      let Entrada_ = event.target.value;
+      Entrada_ = Entrada_.substr(1, 50);
+      Entrada_ = Entrada_.replace(" ", "");
+      var regex1 = /\_+(\d+)+[^\/]*\//g;
+      var regex = /(\d+)/g;
+      if (Entrada_ != null && Entrada_.length > 5) {
+        const text_ = Entrada_.match(regex1);
+        const Numeros2_ = Entrada_.match(regex);
+        if (text_ != null) {
+          let Numeros_ = text_[0];
+          let Numeros1_ = Numeros_.replace("_", "").replace("/", "");
+          // const Numeros_ = text_.match(regex);
+          this.ValidarEmpleado(Numeros1_, "Salida");
+          this.mesaggeEstate = "Salida";
+          event.target.value = Numeros1_;
+          this.regresar_inicio();
+          event.target.value = "";
+          location.reload();
+          // this.empleadosServiceService.selectedEmpleado.N_mero_de_Identificaci_n = Numeros1_;
+        } else if (Numeros2_ != null) {
+          var NumeroExtraido_ = Numeros2_[Numeros2_.length - 1];
+          var NumeroFinal_ = NumeroExtraido_.substr(NumeroExtraido_.length - 10, NumeroExtraido_.length);
+          if (NumeroFinal_.startsWith('0')) {
+            NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
           }
-        } else {
+          if (NumeroFinal_.startsWith('0')) {
+            NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
+          }
+          this.ValidarEmpleado(NumeroFinal_, "Salida");
+          this.mesaggeEstate = "Salida";
+          event.target.value = NumeroFinal_;
+          this.regresar_inicio();
           event.target.value = "";
         }
+      } else {
+        event.target.value = "";
       }
+      // }
     }, 1500);
   }
   //Función para regresar al inicio
@@ -1263,9 +1307,12 @@ EmpleadocomponentComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.myInputField2 = _t.first);
     }
   },
-  decls: 22,
-  vars: 7,
-  consts: [["tabindex", "-1", "role", "dialog", "id", "modalSheet", 1, "modal", "modal-sheet", "position-static", "d-block", "py-5", "container-modal"], ["role", "document", 1, "modal-dialog"], [1, "modal-content", "rounded-4", "card-content"], [1, "modal-header", "border-bottom-0"], [1, "modal-title", "fs-5", "title-1"], [1, "modal-body", "py-0"], ["empleadoForm", "ngForm"], [1, "form-group"], [4, "ngIf", "ngIfThen", "ngIfElse"], ["Ingreso", ""], ["Salida", ""], [1, "modal-footer", "flex-column", "border-top-0"], ["loggedIn", ""], ["loggedOut", ""], [2, "text-align", "center"], [3, "height", "width", "trigger", "allowCameraSwitch", "switchCamera", "videoOptions", "imageCapture", "cameraSwitched", "initError", 4, "ngIf"], [4, "ngIf"], [4, "ngFor", "ngForOf"], ["type", "text", "name", "N_mero_de_Identificaci_nI", "placeholder", "Identificacion ingreso", "required", "", "minlength", "6", "max", "50", "value", "", 1, "input-form", 3, "keydown"], ["N_mero_de_Identificaci_nI", ""], ["class", "alert", 4, "ngIf"], [3, "height", "width", "trigger", "allowCameraSwitch", "switchCamera", "videoOptions", "imageCapture", "cameraSwitched", "initError"], [1, "alert"], ["class", "message", 4, "ngIf"], [1, "message"], ["type", "text", "name", "N_mero_de_Identificaci_nS", "placeholder", "Identificacion salida", "required", "", "minlength", "6", "max", "50", "value", "", "autofocus", "", 1, "input-form", 3, "keydown"], ["N_mero_de_Identificaci_nS", ""], [1, "card", "text-white", "bg-success", "mb-3", 2, "max-width", "20rem"], [1, "card-header"], [1, "card-body"], [1, "card-title"], [1, "card-text"]],
+  outputs: {
+    mesagge: "mesagge"
+  },
+  decls: 18,
+  vars: 5,
+  consts: [["tabindex", "-1", "role", "dialog", "id", "modalSheet", 1, "modal", "modal-sheet", "position-static", "d-block", "py-5", "container-modal"], ["role", "document", 1, "modal-dialog"], [1, "modal-content", "rounded-4", "card-content"], [1, "modal-header", "border-bottom-0"], [1, "modal-title", "fs-5", "title-1"], [1, "modal-body", "py-0"], ["empleadoForm", "ngForm"], [1, "form-group"], [4, "ngIf", "ngIfThen", "ngIfElse"], ["Ingreso", ""], ["Salida", ""], [1, "modal-footer", "flex-column", "border-top-0"], [4, "ngIf"], [2, "text-align", "center"], [3, "height", "width", "trigger", "allowCameraSwitch", "switchCamera", "videoOptions", "imageCapture", "cameraSwitched", "initError", 4, "ngIf"], [4, "ngFor", "ngForOf"], ["type", "text", "name", "N_mero_de_Identificaci_nI", "placeholder", "Identificacion ingreso", "required", "", "minlength", "6", "max", "50", "value", "", 1, "input-form", 3, "keydown"], ["N_mero_de_Identificaci_nI", ""], ["class", "alert", 4, "ngIf"], [3, "height", "width", "trigger", "allowCameraSwitch", "switchCamera", "videoOptions", "imageCapture", "cameraSwitched", "initError"], [1, "alert"], ["class", "message", 4, "ngIf"], [1, "message"], ["type", "text", "name", "N_mero_de_Identificaci_nS", "placeholder", "Identificacion salida", "required", "", "minlength", "6", "max", "50", "value", "", "autofocus", "", 1, "input-form", 3, "keydown"], ["N_mero_de_Identificaci_nS", ""], [1, "modal-message"], [1, "modal__container"], [1, "modal__title"], ["alt", "", 1, "img-mesagge", 3, "src"], [1, "modal__paragraph"]],
   template: function EmpleadocomponentComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "h1", 4);
@@ -1277,26 +1324,22 @@ EmpleadocomponentComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, EmpleadocomponentComponent_ng_template_13_Template, 8, 2, "ng-template", null, 10, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplateRefExtractor"]);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "div", 7)(16, "div", 11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](17, EmpleadocomponentComponent_ng_container_17_Template, 1, 0, "ng-container", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](18, EmpleadocomponentComponent_ng_template_18_Template, 8, 3, "ng-template", null, 12, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplateRefExtractor"]);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](20, EmpleadocomponentComponent_ng_template_20_Template, 1, 0, "ng-template", null, 13, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplateRefExtractor"]);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](17, EmpleadocomponentComponent_div_17_Template, 8, 3, "div", 12);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()()();
     }
     if (rf & 2) {
       const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](12);
       const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](14);
-      const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](19);
-      const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](21);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.titulo);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.titulo == "Ingreso")("ngIfThen", _r2)("ngIfElse", _r4);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.empleados.N_mero_de_Identificaci_n != "")("ngIfThen", _r7)("ngIfElse", _r9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.mesagge);
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_6__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_6__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_2__.NgForm, ngx_webcam__WEBPACK_IMPORTED_MODULE_4__.WebcamComponent, _angular_common__WEBPACK_IMPORTED_MODULE_6__.JsonPipe],
-  styles: [".input-form[_ngcontent-%COMP%] {\n    border-style: solid;\n    border-color: #b81c1c;\n    border-width: 3px;\n    display: block;\n    width: 100%;\n    padding: 0.375rem 0.75rem;\n    font-size: 1rem;\n    font-weight: 400;\n    line-height: 1.5;\n    background-color: var(--bs-form-control-bg);\n    background-clip: padding-box;\n    -webkit-appearance: none;\n    appearance: none;\n    border-radius: 0.375rem;\n}\n\n\n.title-1[_ngcontent-%COMP%]{\n    color: #b81c1c;\n    width: 100%;\n    text-align: center;\n    align-items: center;\n    align-content: center;\n    font-size: 2rem;\n    font-weight: 400;\n}\n\n.card-content[_ngcontent-%COMP%]{\n    top: 30px;\n    height: auto;\n    border-color: #b81c1c;\n    border-style: solid;\n\n}\n\n.container-modal[_ngcontent-%COMP%]{\n    background-color: #F7CACA;\n\tbackground-image: url(\"/assets/Images/fondo_4.svg\");\n\tbackground-position: bottom;\n\tbackground-repeat: no-repeat;\n\tbackground-size: cover;\n\tbackground-attachment: scroll;\n\n}\n\np[_ngcontent-%COMP%]{\n    margin-top: 10px;\n    text-align: center;\n    font-size: 25px;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvZW1wbGVhZG8vZW1wbGVhZG9jb21wb25lbnQvZW1wbGVhZG9jb21wb25lbnQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLG1CQUFtQjtJQUNuQixxQkFBcUI7SUFDckIsaUJBQWlCO0lBQ2pCLGNBQWM7SUFDZCxXQUFXO0lBQ1gseUJBQXlCO0lBQ3pCLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsZ0JBQWdCO0lBQ2hCLDJDQUEyQztJQUMzQyw0QkFBNEI7SUFDNUIsd0JBQXdCO0lBRXhCLGdCQUFnQjtJQUNoQix1QkFBdUI7QUFDM0I7OztBQUdBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsbUJBQW1CO0lBQ25CLHFCQUFxQjtJQUNyQixlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksU0FBUztJQUNULFlBQVk7SUFDWixxQkFBcUI7SUFDckIsbUJBQW1COztBQUV2Qjs7QUFFQTtJQUNJLHlCQUF5QjtDQUM1QixtREFBbUQ7Q0FDbkQsMkJBQTJCO0NBQzNCLDRCQUE0QjtDQUM1QixzQkFBc0I7Q0FDdEIsNkJBQTZCOztBQUU5Qjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixrQkFBa0I7SUFDbEIsZUFBZTtBQUNuQiIsInNvdXJjZXNDb250ZW50IjpbIi5pbnB1dC1mb3JtIHtcbiAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xuICAgIGJvcmRlci1jb2xvcjogI2I4MWMxYztcbiAgICBib3JkZXItd2lkdGg6IDNweDtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICB3aWR0aDogMTAwJTtcbiAgICBwYWRkaW5nOiAwLjM3NXJlbSAwLjc1cmVtO1xuICAgIGZvbnQtc2l6ZTogMXJlbTtcbiAgICBmb250LXdlaWdodDogNDAwO1xuICAgIGxpbmUtaGVpZ2h0OiAxLjU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tYnMtZm9ybS1jb250cm9sLWJnKTtcbiAgICBiYWNrZ3JvdW5kLWNsaXA6IHBhZGRpbmctYm94O1xuICAgIC13ZWJraXQtYXBwZWFyYW5jZTogbm9uZTtcbiAgICAtbW96LWFwcGVhcmFuY2U6IG5vbmU7XG4gICAgYXBwZWFyYW5jZTogbm9uZTtcbiAgICBib3JkZXItcmFkaXVzOiAwLjM3NXJlbTtcbn1cblxuXG4udGl0bGUtMXtcbiAgICBjb2xvcjogI2I4MWMxYztcbiAgICB3aWR0aDogMTAwJTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBhbGlnbi1jb250ZW50OiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiAycmVtO1xuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG59XG5cbi5jYXJkLWNvbnRlbnR7XG4gICAgdG9wOiAzMHB4O1xuICAgIGhlaWdodDogYXV0bztcbiAgICBib3JkZXItY29sb3I6ICNiODFjMWM7XG4gICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcblxufVxuXG4uY29udGFpbmVyLW1vZGFse1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGN0NBQ0E7XG5cdGJhY2tncm91bmQtaW1hZ2U6IHVybChcIi9hc3NldHMvSW1hZ2VzL2ZvbmRvXzQuc3ZnXCIpO1xuXHRiYWNrZ3JvdW5kLXBvc2l0aW9uOiBib3R0b207XG5cdGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG5cdGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG5cdGJhY2tncm91bmQtYXR0YWNobWVudDogc2Nyb2xsO1xuXG59XG5cbnB7XG4gICAgbWFyZ2luLXRvcDogMTBweDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiAyNXB4O1xufSJdLCJzb3VyY2VSb290IjoiIn0= */"]
+  styles: [".input-form[_ngcontent-%COMP%] {\n    border-style: solid;\n    border-color: #b81c1c;\n    border-width: 3px;\n    display: block;\n    width: 100%;\n    padding: 0.375rem 0.75rem;\n    font-size: 1rem;\n    font-weight: 400;\n    line-height: 1.5;\n    background-color: var(--bs-form-control-bg);\n    background-clip: padding-box;\n    -webkit-appearance: none;\n    appearance: none;\n    border-radius: 0.375rem;\n}\n\n\n.title-1[_ngcontent-%COMP%]{\n    color: #b81c1c;\n    width: 100%;\n    text-align: center;\n    align-items: center;\n    align-content: center;\n    font-size: 2rem;\n    font-weight: 400;\n}\n\n.card-content[_ngcontent-%COMP%]{\n    top: 30px;\n    height: auto;\n    border-color: #b81c1c;\n    border-style: solid;\n\n}\n\n.container-modal[_ngcontent-%COMP%]{\n    background-color: #F7CACA;\n\tbackground-image: url(\"/assets/Images/fondo_4.svg\");\n\tbackground-position: bottom;\n\tbackground-repeat: no-repeat;\n\tbackground-size: cover;\n\tbackground-attachment: scroll;\n\n}\n\np[_ngcontent-%COMP%]{\n    margin-top: 10px;\n    text-align: center;\n    font-size: 25px;\n}\n\n*[_ngcontent-%COMP%]{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n\nbody[_ngcontent-%COMP%]{\n    font-family: 'Urbanist', sans-serif;\n}\n\n.container[_ngcontent-%COMP%]{\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n    overflow: hidden;\n}\n.modal-message[_ngcontent-%COMP%]{\n    position: fixed;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background-color: #111111bd;\n    display: flex;\n    pointer-events: none;\n    transition: opacity .6s .9s;\n    --transform: translateY(-100vh);\n    --transition: transform .8s;\n    opacity: 1;\n\n    pointer-events: unset;\n    transition: opacity .6s;\n    --transform: translateY(0);\n    --transition: transform .8s .8s;\n    z-index: 1000;\n}\n\n.modal-message--show[_ngcontent-%COMP%]{\n    opacity: 0;\n    pointer-events: unset;\n    transition: opacity .6s;\n    --transform: translateY(0);\n    --transition: transform .8s .8s;\n    z-index: 1000;\n} \n\n.modal__container[_ngcontent-%COMP%]{\n    margin: auto;\n    width: 90%;\n    max-width: 600px;\n    max-height: 90%;\n    background-color: #fff;\n    border-radius: 6px;\n    padding: 3em 2.5em;\n    display: grid;\n    gap: 1em;\n    place-items: center;\n    grid-auto-columns: 100%;\n    transform: var(--transform);\n    transition:var(--transition);\n}\n\n.modal__title[_ngcontent-%COMP%]{\n    font-size: 2.5rem;\n}\n\n.modal__paragraph[_ngcontent-%COMP%]{\n    margin-bottom: 10px;\n}\n\n.img-mesagge[_ngcontent-%COMP%]{\n    width: 30vh;\n    width: 90%;\n    max-width: 280px;\n  }\n\n.modal__close[_ngcontent-%COMP%]{\n    text-decoration: none;\n    color: #fff;\n    background-color: #F26250;\n    padding: 1em 3em;\n    border: 1px solid ;\n    border-radius: 6px;\n    display: inline-block;\n    font-weight: 300;\n    transition: background-color .3s;\n}\n\n.modal__close[_ngcontent-%COMP%]:hover{\n    color: #F26250;\n    background-color: #fff;\n}\n\n\n@media (max-width:800px) {\n    .modal__container[_ngcontent-%COMP%]{\n        padding: 2em 1.5em;\n    }\n\n    .modal__title[_ngcontent-%COMP%]{\n        font-size: 2rem;\n    }\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvZW1wbGVhZG8vZW1wbGVhZG9jb21wb25lbnQvZW1wbGVhZG9jb21wb25lbnQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLG1CQUFtQjtJQUNuQixxQkFBcUI7SUFDckIsaUJBQWlCO0lBQ2pCLGNBQWM7SUFDZCxXQUFXO0lBQ1gseUJBQXlCO0lBQ3pCLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsZ0JBQWdCO0lBQ2hCLDJDQUEyQztJQUMzQyw0QkFBNEI7SUFDNUIsd0JBQXdCO0lBRXhCLGdCQUFnQjtJQUNoQix1QkFBdUI7QUFDM0I7OztBQUdBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsbUJBQW1CO0lBQ25CLHFCQUFxQjtJQUNyQixlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksU0FBUztJQUNULFlBQVk7SUFDWixxQkFBcUI7SUFDckIsbUJBQW1COztBQUV2Qjs7QUFFQTtJQUNJLHlCQUF5QjtDQUM1QixtREFBbUQ7Q0FDbkQsMkJBQTJCO0NBQzNCLDRCQUE0QjtDQUM1QixzQkFBc0I7Q0FDdEIsNkJBQTZCOztBQUU5Qjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixrQkFBa0I7SUFDbEIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLFNBQVM7SUFDVCxVQUFVO0lBQ1Ysc0JBQXNCO0FBQzFCOztBQUVBO0lBQ0ksbUNBQW1DO0FBQ3ZDOztBQUVBO0lBQ0ksVUFBVTtJQUNWLGlCQUFpQjtJQUNqQixjQUFjO0lBQ2QsZ0JBQWdCO0FBQ3BCO0FBQ0E7SUFDSSxlQUFlO0lBQ2YsTUFBTTtJQUNOLE9BQU87SUFDUCxRQUFRO0lBQ1IsU0FBUztJQUNULDJCQUEyQjtJQUMzQixhQUFhO0lBQ2Isb0JBQW9CO0lBQ3BCLDJCQUEyQjtJQUMzQiwrQkFBK0I7SUFDL0IsMkJBQTJCO0lBQzNCLFVBQVU7O0lBRVYscUJBQXFCO0lBQ3JCLHVCQUF1QjtJQUN2QiwwQkFBMEI7SUFDMUIsK0JBQStCO0lBQy9CLGFBQWE7QUFDakI7O0FBRUE7SUFDSSxVQUFVO0lBQ1YscUJBQXFCO0lBQ3JCLHVCQUF1QjtJQUN2QiwwQkFBMEI7SUFDMUIsK0JBQStCO0lBQy9CLGFBQWE7QUFDakI7O0FBRUE7SUFDSSxZQUFZO0lBQ1osVUFBVTtJQUNWLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2Ysc0JBQXNCO0lBQ3RCLGtCQUFrQjtJQUNsQixrQkFBa0I7SUFDbEIsYUFBYTtJQUNiLFFBQVE7SUFDUixtQkFBbUI7SUFDbkIsdUJBQXVCO0lBQ3ZCLDJCQUEyQjtJQUMzQiw0QkFBNEI7QUFDaEM7O0FBRUE7SUFDSSxpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsVUFBVTtJQUNWLGdCQUFnQjtFQUNsQjs7QUFFRjtJQUNJLHFCQUFxQjtJQUNyQixXQUFXO0lBQ1gseUJBQXlCO0lBQ3pCLGdCQUFnQjtJQUNoQixrQkFBa0I7SUFDbEIsa0JBQWtCO0lBQ2xCLHFCQUFxQjtJQUNyQixnQkFBZ0I7SUFDaEIsZ0NBQWdDO0FBQ3BDOztBQUVBO0lBQ0ksY0FBYztJQUNkLHNCQUFzQjtBQUMxQjs7O0FBR0E7SUFDSTtRQUNJLGtCQUFrQjtJQUN0Qjs7SUFFQTtRQUNJLGVBQWU7SUFDbkI7QUFDSiIsInNvdXJjZXNDb250ZW50IjpbIi5pbnB1dC1mb3JtIHtcbiAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xuICAgIGJvcmRlci1jb2xvcjogI2I4MWMxYztcbiAgICBib3JkZXItd2lkdGg6IDNweDtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICB3aWR0aDogMTAwJTtcbiAgICBwYWRkaW5nOiAwLjM3NXJlbSAwLjc1cmVtO1xuICAgIGZvbnQtc2l6ZTogMXJlbTtcbiAgICBmb250LXdlaWdodDogNDAwO1xuICAgIGxpbmUtaGVpZ2h0OiAxLjU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tYnMtZm9ybS1jb250cm9sLWJnKTtcbiAgICBiYWNrZ3JvdW5kLWNsaXA6IHBhZGRpbmctYm94O1xuICAgIC13ZWJraXQtYXBwZWFyYW5jZTogbm9uZTtcbiAgICAtbW96LWFwcGVhcmFuY2U6IG5vbmU7XG4gICAgYXBwZWFyYW5jZTogbm9uZTtcbiAgICBib3JkZXItcmFkaXVzOiAwLjM3NXJlbTtcbn1cblxuXG4udGl0bGUtMXtcbiAgICBjb2xvcjogI2I4MWMxYztcbiAgICB3aWR0aDogMTAwJTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBhbGlnbi1jb250ZW50OiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiAycmVtO1xuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG59XG5cbi5jYXJkLWNvbnRlbnR7XG4gICAgdG9wOiAzMHB4O1xuICAgIGhlaWdodDogYXV0bztcbiAgICBib3JkZXItY29sb3I6ICNiODFjMWM7XG4gICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcblxufVxuXG4uY29udGFpbmVyLW1vZGFse1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGN0NBQ0E7XG5cdGJhY2tncm91bmQtaW1hZ2U6IHVybChcIi9hc3NldHMvSW1hZ2VzL2ZvbmRvXzQuc3ZnXCIpO1xuXHRiYWNrZ3JvdW5kLXBvc2l0aW9uOiBib3R0b207XG5cdGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG5cdGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG5cdGJhY2tncm91bmQtYXR0YWNobWVudDogc2Nyb2xsO1xuXG59XG5cbnB7XG4gICAgbWFyZ2luLXRvcDogMTBweDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiAyNXB4O1xufVxuXG4qe1xuICAgIG1hcmdpbjogMDtcbiAgICBwYWRkaW5nOiAwO1xuICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG59XG5cbmJvZHl7XG4gICAgZm9udC1mYW1pbHk6ICdVcmJhbmlzdCcsIHNhbnMtc2VyaWY7XG59XG5cbi5jb250YWluZXJ7XG4gICAgd2lkdGg6IDkwJTtcbiAgICBtYXgtd2lkdGg6IDEyMDBweDtcbiAgICBtYXJnaW46IDAgYXV0bztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xufVxuLm1vZGFsLW1lc3NhZ2V7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogMDtcbiAgICBsZWZ0OiAwO1xuICAgIHJpZ2h0OiAwO1xuICAgIGJvdHRvbTogMDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTExMTExYmQ7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBwb2ludGVyLWV2ZW50czogbm9uZTtcbiAgICB0cmFuc2l0aW9uOiBvcGFjaXR5IC42cyAuOXM7XG4gICAgLS10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTEwMHZoKTtcbiAgICAtLXRyYW5zaXRpb246IHRyYW5zZm9ybSAuOHM7XG4gICAgb3BhY2l0eTogMTtcblxuICAgIHBvaW50ZXItZXZlbnRzOiB1bnNldDtcbiAgICB0cmFuc2l0aW9uOiBvcGFjaXR5IC42cztcbiAgICAtLXRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcbiAgICAtLXRyYW5zaXRpb246IHRyYW5zZm9ybSAuOHMgLjhzO1xuICAgIHotaW5kZXg6IDEwMDA7XG59XG5cbi5tb2RhbC1tZXNzYWdlLS1zaG93e1xuICAgIG9wYWNpdHk6IDA7XG4gICAgcG9pbnRlci1ldmVudHM6IHVuc2V0O1xuICAgIHRyYW5zaXRpb246IG9wYWNpdHkgLjZzO1xuICAgIC0tdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApO1xuICAgIC0tdHJhbnNpdGlvbjogdHJhbnNmb3JtIC44cyAuOHM7XG4gICAgei1pbmRleDogMTAwMDtcbn0gXG5cbi5tb2RhbF9fY29udGFpbmVye1xuICAgIG1hcmdpbjogYXV0bztcbiAgICB3aWR0aDogOTAlO1xuICAgIG1heC13aWR0aDogNjAwcHg7XG4gICAgbWF4LWhlaWdodDogOTAlO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG4gICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgIHBhZGRpbmc6IDNlbSAyLjVlbTtcbiAgICBkaXNwbGF5OiBncmlkO1xuICAgIGdhcDogMWVtO1xuICAgIHBsYWNlLWl0ZW1zOiBjZW50ZXI7XG4gICAgZ3JpZC1hdXRvLWNvbHVtbnM6IDEwMCU7XG4gICAgdHJhbnNmb3JtOiB2YXIoLS10cmFuc2Zvcm0pO1xuICAgIHRyYW5zaXRpb246dmFyKC0tdHJhbnNpdGlvbik7XG59XG5cbi5tb2RhbF9fdGl0bGV7XG4gICAgZm9udC1zaXplOiAyLjVyZW07XG59XG5cbi5tb2RhbF9fcGFyYWdyYXBoe1xuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XG59XG5cbi5pbWctbWVzYWdnZXtcbiAgICB3aWR0aDogMzB2aDtcbiAgICB3aWR0aDogOTAlO1xuICAgIG1heC13aWR0aDogMjgwcHg7XG4gIH1cblxuLm1vZGFsX19jbG9zZXtcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0YyNjI1MDtcbiAgICBwYWRkaW5nOiAxZW0gM2VtO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIDtcbiAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIGZvbnQtd2VpZ2h0OiAzMDA7XG4gICAgdHJhbnNpdGlvbjogYmFja2dyb3VuZC1jb2xvciAuM3M7XG59XG5cbi5tb2RhbF9fY2xvc2U6aG92ZXJ7XG4gICAgY29sb3I6ICNGMjYyNTA7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbn1cblxuXG5AbWVkaWEgKG1heC13aWR0aDo4MDBweCkge1xuICAgIC5tb2RhbF9fY29udGFpbmVye1xuICAgICAgICBwYWRkaW5nOiAyZW0gMS41ZW07XG4gICAgfVxuXG4gICAgLm1vZGFsX190aXRsZXtcbiAgICAgICAgZm9udC1zaXplOiAycmVtO1xuICAgIH1cbn0iXSwic291cmNlUm9vdCI6IiJ9 */"]
 });
 
 /***/ }),
