@@ -1181,15 +1181,16 @@ class EmpleadocomponentComponent {
     this.timeout = setTimeout(() => {
       // if (event.target.value.length > 50) {
       let Entrada_ = event.target.value;
-      Entrada_ = Entrada_.substr(1, 50);
-      // console.log("validar")
-      // console.log(Entrada_)
-      Entrada_ = Entrada_.replace(" ", "");
+      Entrada_ = Entrada_.substr(1, 160);
+      console.log("validar");
+      console.log(Entrada_);
+      // Entrada_ = Entrada_.replace(" ","")
       var regex1 = /\_+(\d+)+[^\/]*\//g;
       var regex = /(\d+)/g;
       if (Entrada_ != null && Entrada_.length > 5) {
         const text_ = Entrada_.match(regex1);
         const Numeros2_ = Entrada_.match(regex);
+        console.log(text_);
         if (text_ != null) {
           let Numeros_ = text_[0];
           let Numeros1_ = Numeros_.replace("_", "").replace("/", "");
@@ -1199,7 +1200,6 @@ class EmpleadocomponentComponent {
           event.target.value = Numeros1_;
           this.regresar_inicio();
           event.target.value = "";
-          location.reload();
           // this.empleadosServiceService.selectedEmpleado.N_mero_de_Identificaci_n = Numeros1_;
         } else if (Numeros2_ != null) {
           var NumeroExtraido_ = Numeros2_[Numeros2_.length - 1];
@@ -1241,7 +1241,7 @@ class EmpleadocomponentComponent {
     this.timeout = setTimeout(() => {
       // if (event.target.value.length > 50) {
       let Entrada_ = event.target.value;
-      Entrada_ = Entrada_.substr(1, 50);
+      // Entrada_ = Entrada_.substr(1,50)
       Entrada_ = Entrada_.replace(" ", "");
       var regex1 = /\_+(\d+)+[^\/]*\//g;
       var regex = /(\d+)/g;
@@ -1257,7 +1257,6 @@ class EmpleadocomponentComponent {
           event.target.value = Numeros1_;
           this.regresar_inicio();
           event.target.value = "";
-          location.reload();
           // this.empleadosServiceService.selectedEmpleado.N_mero_de_Identificaci_n = Numeros1_;
         } else if (Numeros2_ != null) {
           var NumeroExtraido_ = Numeros2_[Numeros2_.length - 1];
