@@ -1241,13 +1241,15 @@ class EmpleadocomponentComponent {
     this.timeout = setTimeout(() => {
       // if (event.target.value.length > 50) {
       let Entrada_ = event.target.value;
-      // Entrada_ = Entrada_.substr(1,50)
-      Entrada_ = Entrada_.replace(" ", "");
+      Entrada_ = Entrada_.substr(1, 160);
+      // Entrada_ = Entrada_.replace(" ","")
+      console.log(Entrada_);
       var regex1 = /\_+(\d+)+[^\/]*\//g;
       var regex = /(\d+)/g;
       if (Entrada_ != null && Entrada_.length > 5) {
         const text_ = Entrada_.match(regex1);
         const Numeros2_ = Entrada_.match(regex);
+        console.log(Numeros2_);
         if (text_ != null) {
           let Numeros_ = text_[0];
           let Numeros1_ = Numeros_.replace("_", "").replace("/", "");
@@ -1267,6 +1269,7 @@ class EmpleadocomponentComponent {
           if (NumeroFinal_.startsWith('0')) {
             NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
           }
+          console.log(NumeroFinal_);
           this.ValidarEmpleado(NumeroFinal_, "Salida");
           this.mesaggeEstate = "Salida";
           event.target.value = NumeroFinal_;
