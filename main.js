@@ -1172,7 +1172,11 @@ class EmpleadocomponentComponent {
     this.timeout = setTimeout(() => {
       // if (event.target.value.length > 50) {
       let Entrada_ = event.target.value;
-      Entrada_ = Entrada_.substr(1, 160);
+      if (Entrada_.startsWith('h')) {
+        Entrada_ = Entrada_.substr(1, 160);
+      } else {
+        Entrada_ = Entrada_.substr(1, 50);
+      }
       console.log("validar");
       console.log(Entrada_);
       // Entrada_ = Entrada_.replace(" ","")
@@ -1232,7 +1236,11 @@ class EmpleadocomponentComponent {
     this.timeout = setTimeout(() => {
       // if (event.target.value.length > 50) {
       let Entrada_ = event.target.value;
-      Entrada_ = Entrada_.substr(1, 160);
+      if (Entrada_.startsWith('h')) {
+        Entrada_ = Entrada_.substr(1, 160);
+      } else {
+        Entrada_ = Entrada_.substr(1, 50);
+      }
       // Entrada_ = Entrada_.replace(" ","")
       console.log(Entrada_);
       var regex1 = /\_+(\d+)+[^\/]*\//g;
