@@ -613,7 +613,7 @@ NavbarComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__[
   selectors: [["app-navbar"]],
   decls: 29,
   vars: 0,
-  consts: [["id", "Navbar"], [1, "navbar", "navbar-expand-lg", "navbar-dark", "bg-dark", "bg-custom-1"], [1, "container-fluid"], ["href", "https://hq5.com.co/", "target", "_blank", 1, "navbar-brand", "Color_Logo"], ["src", "assets\\Images\\hq5_logo_3.png", "width", "60", "height", "30", "alt", "HQ5SAS", "id", "Logo_3", 2, "display", "block"], ["src", "assets\\Images\\hq5_logo_2.png", "width", "60", "height", "30", "alt", "HQ5SAS", "id", "Logo_2", 2, "display", "none"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "me-auto", "mb-2", "mb-lg-0"], [1, "nav-item"], ["aria-current", "page", "routerLink", "/", 1, "nav-link", "Color_Text_Navbar"], ["aria-current", "page", "routerLink", "/Biometrico", 1, "nav-link", "Color_Text_Navbar"], [1, "navbar-nav", "d-flex", "flex-row", "me-1"], [1, "nav-item", "me-3", "me-lg-0"], ["href", "https://web.whatsapp.com/send?phone=573009120781", "target", "_blank", 1, "nav-link", "bg-icon-custom"], [1, "bi", "bi-whatsapp"], ["href", "https://hq5.com.co/oferta-laboral/", "target", "_blank", 1, "nav-link", "bg-icon-custom"], [1, "bi", "bi-person-circle"], ["id", "Icon_Mode", 1, "nav-item", "me-3", "me-lg-0", 2, "display", "block"], [1, "nav-link", "bg-icon-custom", 3, "click"], [1, "bi", "bi-sun-fill"], ["id", "Icon_Mode_2", 1, "nav-item", "me-3", "me-lg-0", 2, "display", "none"], [1, "bi", "bi-moon-stars-fill"]],
+  consts: [["id", "Navbar"], [1, "navbar", "navbar-expand-lg", "navbar-dark", "bg-dark", "bg-custom-1"], [1, "container-fluid"], ["href", "https://hq5.com.co/", "target", "_blank", 1, "navbar-brand", "Color_Logo"], ["src", "assets\\Images\\hq5_logo_3.png", "width", "60", "height", "30", "alt", "HQ5SAS", "id", "Logo_3", 2, "display", "block"], ["src", "assets\\Images\\hq5_logo_2.png", "width", "60", "height", "30", "alt", "HQ5SAS", "id", "Logo_2", 2, "display", "none"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "me-auto", "mb-2", "mb-lg-0"], [1, "nav-item"], ["aria-current", "page", "routerLink", "", 1, "nav-link", "Color_Text_Navbar"], ["aria-current", "page", "routerLink", "/Biometrico", 1, "nav-link", "Color_Text_Navbar"], [1, "navbar-nav", "d-flex", "flex-row", "me-1"], [1, "nav-item", "me-3", "me-lg-0"], ["href", "https://web.whatsapp.com/send?phone=573009120781", "target", "_blank", 1, "nav-link", "bg-icon-custom"], [1, "bi", "bi-whatsapp"], ["href", "https://hq5.com.co/oferta-laboral/", "target", "_blank", 1, "nav-link", "bg-icon-custom"], [1, "bi", "bi-person-circle"], ["id", "Icon_Mode", 1, "nav-item", "me-3", "me-lg-0", 2, "display", "block"], [1, "nav-link", "bg-icon-custom", 3, "click"], [1, "bi", "bi-sun-fill"], ["id", "Icon_Mode_2", 1, "nav-item", "me-3", "me-lg-0", 2, "display", "none"], [1, "bi", "bi-moon-stars-fill"]],
   template: function NavbarComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0)(1, "nav", 1)(2, "div", 2)(3, "a", 3);
@@ -1193,6 +1193,7 @@ class EmpleadocomponentComponent {
         const text_ = Entrada_.match(regex1);
         const Numeros2_ = Entrada_.match(regex);
         console.log(text_);
+        console.log(Numeros2_);
         if (text_ != null) {
           let Numeros_ = text_[0];
           let Numeros1_ = Numeros_.replace("_", "").replace("/", "");
@@ -1223,7 +1224,7 @@ class EmpleadocomponentComponent {
         event.target.value = "";
       }
       // }
-    }, 1500);
+    }, 3000);
   }
   // if (Entrada_ != null && Entrada_.length > 5) {
   //https://creatorapp.zohopublic.com/hq5colombia/hq5/record-pdf/Candidatos_En_Proceso_Qr/3960020000015496108/Carnet_Hq5_1085267473/mmQZY54
@@ -1286,7 +1287,7 @@ class EmpleadocomponentComponent {
         event.target.value = "";
       }
       // }
-    }, 1500);
+    }, 3000);
   }
   //Función para regresar al inicio
   regresar_inicio() {
