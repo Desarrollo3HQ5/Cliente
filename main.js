@@ -709,12 +709,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ 2508);
 /* harmony import */ var ngx_webcam__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-webcam */ 8986);
 /* harmony import */ var rxjs_internal_Subject__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/internal/Subject */ 228);
-/* harmony import */ var _empleado_services_empleados_service_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../empleado/services/empleados-service.service */ 7054);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 124);
+/* harmony import */ var _empleado_services_empleados_service_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../empleado/services/empleados-service.service */ 7054);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 4666);
 
 
 
+//-----------------
 
 
 
@@ -915,7 +916,8 @@ function EmpleadocomponentComponent_div_17_Template(rf, ctx) {
   }
 }
 class EmpleadocomponentComponent {
-  constructor(empleadosServiceService, route, formBuilder) {
+  constructor(router, empleadosServiceService, route, formBuilder) {
+    this.router = router;
     this.empleadosServiceService = empleadosServiceService;
     this.route = route;
     this.formBuilder = formBuilder;
@@ -1287,12 +1289,13 @@ class EmpleadocomponentComponent {
       clearTimeout(this.timeout);
     }
     this.timeout = setTimeout(() => {
-      location.href = location.host + "/Biometrico";
+      this.router.navigate(['Biometrico']);
+      // this.Router.navigate(['Biometrico'])
     }, 300000);
   }
 }
 EmpleadocomponentComponent.ɵfac = function EmpleadocomponentComponent_Factory(t) {
-  return new (t || EmpleadocomponentComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_empleado_services_empleados_service_service__WEBPACK_IMPORTED_MODULE_0__.EmpleadosServiceService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__.ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__.FormBuilder));
+  return new (t || EmpleadocomponentComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_empleado_services_empleados_service_service__WEBPACK_IMPORTED_MODULE_0__.EmpleadosServiceService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__.ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__.FormBuilder));
 };
 EmpleadocomponentComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
   type: EmpleadocomponentComponent,
