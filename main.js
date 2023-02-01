@@ -34,7 +34,10 @@ const routes = [{
 }, {
   path: 'Biometrico',
   component: _components_biometrico_biometrico_component__WEBPACK_IMPORTED_MODULE_1__.BiometricoComponent
-}];
+}
+// '**'
+];
+
 class AppRoutingModule {}
 AppRoutingModule.ɵfac = function AppRoutingModule_Factory(t) {
   return new (t || AppRoutingModule)();
