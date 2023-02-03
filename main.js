@@ -1184,6 +1184,7 @@ class EmpleadocomponentComponent {
       let Entrada_ = event.target.value;
       // Carnet
       if (Entrada_.startsWith('h')) {
+        console.log("Carnet");
         Entrada_ = Entrada_.substr(1, 160);
         console.log(Entrada_);
         var regex1 = /\_+(\d+)+[^\/]*\//g;
@@ -1212,6 +1213,7 @@ class EmpleadocomponentComponent {
         Entrada_ = Entrada_.substr(1, 50);
         var regex = /(\d+)/g;
         if (Entrada_ != null && Entrada_.length > 5) {
+          console.log("CC");
           const Numeros2_ = Entrada_.match(regex);
           console.log(Numeros2_);
           if (Numeros2_ != null) {
