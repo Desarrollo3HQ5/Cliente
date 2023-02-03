@@ -1182,49 +1182,59 @@ class EmpleadocomponentComponent {
     this.timeout = setTimeout(() => {
       // if (event.target.value.length > 50) {
       let Entrada_ = event.target.value;
+      // Carnet
       if (Entrada_.startsWith('h')) {
         Entrada_ = Entrada_.substr(1, 160);
-      } else {
-        Entrada_ = Entrada_.substr(1, 50);
-      }
-      console.log("validar");
-      console.log(Entrada_);
-      // Entrada_ = Entrada_.replace(" ","")
-      var regex1 = /\_+(\d+)+[^\/]*\//g;
-      var regex = /(\d+)/g;
-      if (Entrada_ != null && Entrada_.length > 5) {
-        const text_ = Entrada_.match(regex1);
-        const Numeros2_ = Entrada_.match(regex);
-        console.log(text_);
-        console.log(Numeros2_);
-        if (text_ != null) {
-          let Numeros_ = text_[0];
-          let Numeros1_ = Numeros_.replace("_", "").replace("/", "");
-          // const Numeros_ = text_.match(regex);
-          this.ValidarEmpleado(Numeros1_, "Ingreso");
-          this.mesaggeEstate = "Ingreso";
-          event.target.value = Numeros1_;
-          this.regresar_inicio();
-          event.target.value = "";
-          // this.empleadosServiceService.selectedEmpleado.N_mero_de_Identificaci_n = Numeros1_;
-        } else if (Numeros2_ != null) {
-          var NumeroExtraido_ = Numeros2_[Numeros2_.length - 1];
-          var NumeroFinal_ = NumeroExtraido_.substr(NumeroExtraido_.length - 10, NumeroExtraido_.length);
-          if (NumeroFinal_.startsWith('0')) {
-            NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
+        console.log(Entrada_);
+        var regex1 = /\_+(\d+)+[^\/]*\//g;
+        if (Entrada_ != null && Entrada_.length > 5) {
+          const text_ = Entrada_.match(regex1);
+          if (text_ != null) {
+            let Numeros_ = text_[0];
+            let Numeros1_ = Numeros_.replace("_", "").replace("/", "");
+            // const Numeros_ = text_.match(regex);
+            console.log(Numeros1_);
+            this.ValidarEmpleado(Numeros1_, "Ingreso");
+            this.mesaggeEstate = "Ingreso";
+            event.target.value = Numeros1_;
+            this.regresar_inicio();
+            event.target.value = "";
+            // this.empleadosServiceService.selectedEmpleado.N_mero_de_Identificaci_n = Numeros1_;
+          } else {
+            event.target.value = "";
           }
-          if (NumeroFinal_.startsWith('0')) {
-            NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
-          }
-          console.log(NumeroFinal_);
-          this.ValidarEmpleado(NumeroFinal_, "Ingreso");
-          this.mesaggeEstate = "Ingreso";
-          event.target.value = NumeroFinal_;
-          this.regresar_inicio();
+        } else {
           event.target.value = "";
         }
-      } else {
-        event.target.value = "";
+      }
+      // CC
+      else {
+        Entrada_ = Entrada_.substr(1, 50);
+        var regex = /(\d+)/g;
+        if (Entrada_ != null && Entrada_.length > 5) {
+          const Numeros2_ = Entrada_.match(regex);
+          console.log(Numeros2_);
+          if (Numeros2_ != null) {
+            var NumeroExtraido_ = Numeros2_[Numeros2_.length - 1];
+            var NumeroFinal_ = NumeroExtraido_.substr(NumeroExtraido_.length - 10, NumeroExtraido_.length);
+            if (NumeroFinal_.startsWith('0')) {
+              NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
+            }
+            if (NumeroFinal_.startsWith('0')) {
+              NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
+            }
+            console.log(NumeroFinal_);
+            this.ValidarEmpleado(NumeroFinal_, "Ingreso");
+            this.mesaggeEstate = "Ingreso";
+            event.target.value = NumeroFinal_;
+            this.regresar_inicio();
+            event.target.value = "";
+          } else {
+            event.target.value = "";
+          }
+        } else {
+          event.target.value = "";
+        }
       }
       // }
     }, 3000);
@@ -1247,47 +1257,56 @@ class EmpleadocomponentComponent {
     this.timeout = setTimeout(() => {
       // if (event.target.value.length > 50) {
       let Entrada_ = event.target.value;
+      // Carnet
       if (Entrada_.startsWith('h')) {
         Entrada_ = Entrada_.substr(1, 160);
-      } else {
-        Entrada_ = Entrada_.substr(1, 50);
-      }
-      // Entrada_ = Entrada_.replace(" ","")
-      console.log(Entrada_);
-      var regex1 = /\_+(\d+)+[^\/]*\//g;
-      var regex = /(\d+)/g;
-      if (Entrada_ != null && Entrada_.length > 5) {
-        const text_ = Entrada_.match(regex1);
-        const Numeros2_ = Entrada_.match(regex);
-        console.log(Numeros2_);
-        if (text_ != null) {
-          let Numeros_ = text_[0];
-          let Numeros1_ = Numeros_.replace("_", "").replace("/", "");
-          // const Numeros_ = text_.match(regex);
-          this.ValidarEmpleado(Numeros1_, "Salida");
-          this.mesaggeEstate = "Salida";
-          event.target.value = Numeros1_;
-          this.regresar_inicio();
-          event.target.value = "";
-          // this.empleadosServiceService.selectedEmpleado.N_mero_de_Identificaci_n = Numeros1_;
-        } else if (Numeros2_ != null) {
-          var NumeroExtraido_ = Numeros2_[Numeros2_.length - 1];
-          var NumeroFinal_ = NumeroExtraido_.substr(NumeroExtraido_.length - 10, NumeroExtraido_.length);
-          if (NumeroFinal_.startsWith('0')) {
-            NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
+        var regex1 = /\_+(\d+)+[^\/]*\//g;
+        if (Entrada_ != null && Entrada_.length > 5) {
+          const text_ = Entrada_.match(regex1);
+          if (text_ != null) {
+            let Numeros_ = text_[0];
+            let Numeros1_ = Numeros_.replace("_", "").replace("/", "");
+            // const Numeros_ = text_.match(regex);
+            this.ValidarEmpleado(Numeros1_, "Salida");
+            this.mesaggeEstate = "Salida";
+            event.target.value = Numeros1_;
+            this.regresar_inicio();
+            event.target.value = "";
+            // this.empleadosServiceService.selectedEmpleado.N_mero_de_Identificaci_n = Numeros1_;
+          } else {
+            event.target.value = "";
           }
-          if (NumeroFinal_.startsWith('0')) {
-            NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
-          }
-          console.log(NumeroFinal_);
-          this.ValidarEmpleado(NumeroFinal_, "Salida");
-          this.mesaggeEstate = "Salida";
-          event.target.value = NumeroFinal_;
-          this.regresar_inicio();
+        } else {
           event.target.value = "";
         }
-      } else {
-        event.target.value = "";
+      }
+      // CC
+      else {
+        Entrada_ = Entrada_.substr(1, 50);
+        var regex = /(\d+)/g;
+        if (Entrada_ != null && Entrada_.length > 5) {
+          const Numeros2_ = Entrada_.match(regex);
+          if (Numeros2_ != null) {
+            var NumeroExtraido_ = Numeros2_[Numeros2_.length - 1];
+            var NumeroFinal_ = NumeroExtraido_.substr(NumeroExtraido_.length - 10, NumeroExtraido_.length);
+            if (NumeroFinal_.startsWith('0')) {
+              NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
+            }
+            if (NumeroFinal_.startsWith('0')) {
+              NumeroFinal_ = NumeroFinal_.substr(1, NumeroExtraido_.length);
+            }
+            console.log(NumeroFinal_);
+            this.ValidarEmpleado(NumeroFinal_, "Salida");
+            this.mesaggeEstate = "Salida";
+            event.target.value = NumeroFinal_;
+            this.regresar_inicio();
+            event.target.value = "";
+          } else {
+            event.target.value = "";
+          }
+        } else {
+          event.target.value = "";
+        }
       }
       // }
     }, 3000);
